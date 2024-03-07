@@ -2,7 +2,7 @@ const enviarmensaje = require("../service/apiservice");
 const verificar = (req, res) => {
 
     try{
-        var tokenandercode = "ANDERCODENODEJSAPIMETA";
+        var tokenandercode = "ALBECODENODEJSAPIMETA";
         var token = req.query["hub.verify_token"];
         var challenge = req.query["hub.challenge"];
 
